@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "940818823538",
+    "firebase_url": "https://alumni-smart-connect.firebaseio.com",
+    "project_id": "alumni-smart-connect",
+    "storage_bucket": "alumni-smart-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940818823538:android:0c7d9c612ac370ddf805eb",
+        "android_client_info": {
+          "package_name": "com.example.alumnismartconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940818823538-e1sai1l7ejqpj68o5s1rci338um3sf9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alumnismartconnect",
+            "certificate_hash": "6fb3d8a25d91737d5e1ca26d2ff4340fef05c73a"
+          }
+        },
+        {
+          "client_id": "940818823538-eva9qi40o591s0dtb8mv0ibk5tlr67bt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZFEJW59-WBSGUmmE_VhXlj-6Oh-QKwV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940818823538-eva9qi40o591s0dtb8mv0ibk5tlr67bt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Alumni Smart Connect</string>
+    <string name="todo">TODO</string>
+    <string name="signup">SignUp</string>
+    <string name="slogan">no distance of place or lapse of time can lessen the friendship of those who are thoroughly persuaded of each others worth</string>
+    <string name="signin">SignIn</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="full_name">Full name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="year_of_passout">Year of Passout</string>
+    <string name="email">Email</string>
+    <string name="designation">Designation</string>
+    <string name="phone">Phone</string>
+    <string name="working_place">Working place</string>
+    <string name="briefing">Briefing</string>
+    <string name="alumni_smart_connect">Alumni Smart Connect</string>
+</resources>

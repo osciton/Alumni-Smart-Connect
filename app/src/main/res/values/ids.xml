@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="username" type="id" />
+    <item name="fullname" type="id" />
+    <item name="password" type="id" />
+    <item name="year_of_passout" type="id" />
+    <item name="phone" type="id" />
+    <item name="email" type="id" />
+    <item name="working_place" type="id" />
+    <item name="designation" type="id" />
+    <item name="briefing" type="id" />
+</resources>

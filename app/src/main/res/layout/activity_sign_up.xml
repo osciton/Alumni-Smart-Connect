@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".SignUp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_a_new_account"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/FullName"
+            android:text="Tonnie wrighton"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="@string/full_name" />
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtUserName"
+            android:text="tonnie"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="@string/username" />
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:text="tonnie.wrighton1998@gmail.com"
+            app:met_floatingLabel="normal"
+            android:hint="@string/email" />
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Password"
+            android:text="qwerty"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="@string/password" />
+
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/YearOfPassout"
+            android:layout_marginTop="10dp"
+            android:text="2020"
+            app:met_floatingLabel="normal"
+            android:hint="@string/year_of_passout" />
+
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Phone"
+            android:layout_marginTop="10dp"
+            android:text="0717607603"
+            app:met_floatingLabel="normal"
+            android:hint="@string/phone" />
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/WorkingPlace"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:text="nairobi"
+            android:hint="@string/working_place" />
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Designation"
+            android:layout_marginTop="10dp"
+            android:text="student"
+            app:met_floatingLabel="normal"
+            android:hint="@string/designation" />
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Briefing"
+            android:layout_marginTop="10dp"
+            android:text="hello"
+            app:met_floatingLabel="normal"
+            android:hint="@string/briefing" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:id="@+id/btnSignUp_id"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/tvSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Already have an Account?Sign In"
+            android:textAlignment="center"
+            android:textColor="#C8C82B"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
